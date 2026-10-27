@@ -1,0 +1,35 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+
+# macOS
+.DS_Store
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private data
+data/private/
+data/uploads/
+
+# Generated files
+outputs/
+exports/
+reports/
+
+# Editor
+.vscode/
+.idea/
